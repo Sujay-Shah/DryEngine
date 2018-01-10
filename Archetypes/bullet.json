@@ -1,0 +1,21 @@
+{
+  "transform": 
+  {
+    "x": 0.5,
+    "y": 0.5,
+    "scale_x": 0.04,
+    "scale_y": 0.04
+  },
+  "ObjectType": "bullet",
+
+  "sprite": 
+  {
+    "texturePath": "Graphics/textures/shipTexture.jpg"
+  },
+   "body":
+  {
+	"mass":1.0,
+	"shape": "circle",
+	"radius":0.01
+  }
+}

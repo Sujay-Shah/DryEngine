@@ -1,0 +1,9 @@
+{
+  "object1": {
+    "archetype": "Archetypes/GameOver/over.json",
+    "transform": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  }
+}

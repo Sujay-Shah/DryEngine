@@ -1,0 +1,22 @@
+{
+  "transform": 
+  {
+    "x": -0.8,
+    "y": 0.9,
+    "scale_x": 0.1,
+    "scale_y": 0.2
+  },
+  "ObjectType": "enemy",
+  "enemy_spawner": true,
+  "wraparound": true,
+  "sprite": 
+  {
+    "texturePath": "Graphics/textures/enemy_missile.png"
+  },
+  "body":
+  {
+	"mass":1.0,
+	"shape": "circle",
+	"radius":0.05
+  }
+}

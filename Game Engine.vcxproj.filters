@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Components\Body.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Component.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Controller.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Transform.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\UpDown.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\CollisionManager.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\EventManager.cpp" />
+    <ClCompile Include="Managers\FrameRateController.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\GameObjectManager.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\InputManager.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\PhysicsManager.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\ResourceManager.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\GameObject.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\ObjectFactory.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Shader.cpp" />
+    <ClCompile Include="Managers\RenderManager.cpp" />
+    <ClCompile Include="Components\WrapAround.cpp" />
+    <ClCompile Include="Components\WrapDestroy.cpp" />
+    <ClCompile Include="Components\Sprite.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Missile.cpp" />
+    <ClCompile Include="Maths\Math2D.cpp" />
+    <ClCompile Include="Maths\Matrix2D.cpp" />
+    <ClCompile Include="Maths\Vector2D.cpp" />
+    <ClCompile Include="Components\AsteroidSpawner.cpp" />
+    <ClCompile Include="Components\EnemySpawner.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Components\Body.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Component.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Controller.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Transform.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\UpDown.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\CollisionManager.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\EventManager.h" />
+    <ClInclude Include="Managers\FrameRateController.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\GameObjectManager.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\InputManager.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\PhysicsManager.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\ResourceManager.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\GameObject.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\ObjectFactory.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\serial-data.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\shader.h" />
+    <ClInclude Include="Graphics\stb_image.h" />
+    <ClInclude Include="Managers\RenderManager.h" />
+    <ClInclude Include="Components\WrapAround.h" />
+    <ClInclude Include="Components\WrapDestroy.h" />
+    <ClInclude Include="Components\Sprite.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Missile.h" />
+    <ClInclude Include="Maths\Math2D.h" />
+    <ClInclude Include="Maths\Matrix2D.h" />
+    <ClInclude Include="Maths\Vector2D.h" />
+    <ClInclude Include="Components\AsteroidSpawner.h" />
+    <ClInclude Include="Components\EnemySpawner.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Component">
+      <UniqueIdentifier>{8b11f6c1-c8b0-45ba-8c02-949f0088660a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{bf2694c6-d06b-4c20-8b90-6f7250544904}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Graphics\Shaders\FragmentShader1.fs" />
+    <None Include="Graphics\Shaders\VertexShader1.vs" />
+  </ItemGroup>
+</Project>
