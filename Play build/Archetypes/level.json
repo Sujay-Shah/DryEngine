@@ -1,0 +1,16 @@
+{
+  "object1": {
+    "archetype": "Archetypes/player.json",
+    "transform": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  "object2": {
+    "archetype": "Archetypes/missile.json",
+    "transform": {
+      "x": -0.5,
+      "y": -0.5
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "transform": 
+  {
+    "x": 0.3,
+    "y": 0.3,
+    "scale_x": 0.1,
+    "scale_y": 0.1
+  },
+  "ObjectType": "asteroid",
+  "sprite": 
+  {
+    "texturePath": "Graphics/textures/asteroidTexture.png"
+  },
+  "body":
+  {
+	"mass":1.0,
+	"shape": "circle",
+	"radius":0.05
+  },
+  "updown":
+  {
+    "range": 0.5,
+    "speed": 0.009
+  }
+}

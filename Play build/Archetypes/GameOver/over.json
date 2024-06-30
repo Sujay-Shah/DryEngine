@@ -1,0 +1,14 @@
+{
+  "transform": 
+  {
+    "x":0.0,
+    "y": 0.0,
+    "scale_x": 2.0,
+    "scale_y": 2.0
+  },
+  "sprite": 
+  {
+    "texturePath": "Graphics/textures/over.png"
+  },
+  "ObjectType": "gui"
+}
